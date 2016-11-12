@@ -31,5 +31,3 @@ print('쪽수가 250쪽이 넘는 책 리스트:', many_page)
 print('내가 추천하는 책 리스트:', recommends)
 print('내가 읽은 책 전체 쪽수:', all_pages)
 print('내가 읽은 책의 출판사 목록:', pub_company)
-    
-
