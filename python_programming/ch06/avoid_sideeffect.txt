@@ -1,0 +1,16 @@
+>>> squares = []
+>>> for x in range(10):
+	squares.append(x**2)
+
+>>> squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> new_squares = [y**2 for y in range(10)]
+>>> new_squares
+[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+>>> x
+9
+>>> y
+Traceback (most recent call last):
+  File "<pyshell#127>", line 1, in <module>
+    y
+NameError: name 'y' is not defined
