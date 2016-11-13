@@ -28,8 +28,14 @@
      	-> TypeError: introduce_my_car() got an unexpected keyword argument 'color'
 
    - Arbitrary Argument Lists
-     A) * -> Tuple data input
+     A) * -> Tuple data input : why tuple is used? tuple is "immutable"
      B) ** -> Dictionary data input
+
+     * automatic packing
+     * keyword-only
+     
+     * def <function_name>(fixed arg, variant args)
+     * def <function_name>(variant args, fixed arg) -> fixed arg should be 'keyword-only'
 
 2. Class
 
