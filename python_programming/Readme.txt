@@ -21,4 +21,4 @@ TypeError: 'tuple' object does not support item assignment
 >>> tuple(movie_list)						# list -> tuple : type conversion
 ('SupermanII', 1981, 'Batman', 1989)
 
-2017-07-01 Python Study Resumed
+2017-07-15 Python Study Resumed
