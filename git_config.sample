@@ -1,0 +1,25 @@
+[include]
+        path = /env/PC/include/gitconfig
+        path = k:/include/gitconfig
+[scmcheck]
+    pcgitsetupcheck = true
+    pcgitsetuprev = 2
+[user]
+    name = Jungho Park
+    email = jungho.park@ericsson.com
+[alias]
+    alias = !git config --global --list | grep ^alias
+    br = branch
+    ci = commit
+    co = checkout
+    dag = log -10 --oneline --graph --decorate --all
+    head = rev-list -n1 --abbrev-commit HEAD
+    hist = log --graph --format=format:\"%C(red)%h%C(reset) %C(yellow)%ad%C(reset) | %s %C(green)\\[%an\\]%C(reset)%C(bold blue)%d%C(reset)\" --abbrev-commit --date=short
+    ld = log -10 --pretty=tformat:\"%C(yellow)%h\\\\ %ad%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]%Creset\" --decorate --date=relative
+    lds = log -10 --pretty=tformat:\"%C(yellow)%h\\\\ %ad%Cred%d\\\\ %Creset%s%Cgreen\\\\ [%cn]%Creset\" --decorate --date=short
+    ll = log -10 --pretty=tformat:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]%Creset\" --decorate --numstat
+    ls = log -10 --pretty=tformat:\"%C(yellow)%h%Cred%d\\\\ %Creset%s%Cblue\\\\ [%cn]%Creset\" --decorate
+    root = rev-parse --show-toplevel
+    st = status
+[core]
+    editor = vim
