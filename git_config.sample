@@ -1,6 +1,6 @@
 [include]
-        path = /env/PC/include/gitconfig
-        path = k:/include/gitconfig
+    path = /env/PC/include/gitconfig
+    path = k:/include/gitconfig
 [scmcheck]
     pcgitsetupcheck = true
     pcgitsetuprev = 2
