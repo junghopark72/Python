@@ -1,3 +1,5 @@
-Anaconda 사용법
+## Anaconda Setup
+
+### 1. 
 
 $ conda create -n deeplearning python=3
