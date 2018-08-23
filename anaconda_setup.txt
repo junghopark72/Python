@@ -1,0 +1,3 @@
+Anaconda 사용법
+
+$ conda create -n deeplearning python=3
