@@ -17,8 +17,7 @@ class BookReader:
 # 클래스 변수 : 모든 인스턴스에서 같은 값을 공유할 때 사용 가능 -> 객체마다 다른 값을 갖지 않는다.
 # 인스턴스 변수 : 객체가 인스턴스화 될 때마다 새로운 값이 할당되며, 서로 다른 객체 간에는 값을 공유할 수 없다.
 
-class Dog:
-       
+class Dog:       
     def __init__(self, name):
         self.name = name
         self.tricks = []            # 인스턴스 변수 선언
